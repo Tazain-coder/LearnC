@@ -15,7 +15,7 @@ int main()
     printf("enter a value -> ");
     scanf("%d", &x[i]);
   }
- 
+
   // A for loop for outputting all the date
   // NOTE: Without the For loop the array outputs a garbage value
 

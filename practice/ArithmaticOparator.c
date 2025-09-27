@@ -57,7 +57,7 @@ int main()
   // NOTE: it does not wait for the variable to be used again
 
   y = ++m;  // The value is already changed in this line
-  printf("%d\n",y); 
+  printf("Pre Increment Value: %d\n",y); 
  
   // NOTE: Post Increment adds 1 to the value on the same line the oparation is done 
   // NOTE: it does require the variable to be called again
@@ -65,7 +65,7 @@ int main()
   m = 10; // resetting the value
 
   y = m++; // The value is not changed at this moment
-  printf("%d\n",y);
+  printf("Post Increment value: %d\n",y);
  
   // NOTE: Pre decrement adds  1 to the value on the same line the oparation is done 
   // NOTE: it does not wait for the variable to be used again
@@ -73,7 +73,7 @@ int main()
   m = 10; // resetting the value
 
   y = --m;
-  printf("%d\n",y);
+  printf("Pre Decrement value: %d\n",y);
  
   // NOTE: Post decrement adds  1 to the value on the same line the oparation is done 
   // NOTE: it does require the variable to be used again
@@ -81,6 +81,6 @@ int main()
   m = 10; // resetting the value
 
   y = m--;
-  printf("%d\n",y);
+  printf("Post Decrement value: %d\n",y);
   
 }
