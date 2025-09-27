@@ -1,11 +1,1 @@
-# Ignore everything
-*
-
-# But keep these files
-!.gitignore
-!README.md
-
-# Keep these directories
-!main.c
-!practice/
 
